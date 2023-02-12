@@ -1,22 +1,37 @@
 //Quyidagi matematik formulaga funksiya tuzing: P = 2(l+w)
-let l = 3;
-let w = 5;
-let p = (l + w) * 2;
-console.log(p);
 
-/*function findP (l,w,){
+/**
+ * @params {l, w}
+ * @return 2(l*w)
+ */
+
+// Question 1
+function findP(l, w,) {
     return (l + w) * 2;
-}*/
-
-// Quyidagi matematik formulaga funksiya tuzing: A = πr2 (π=3.14)
-const A = π * r * 2;
-function findA(π, r2) {
-    return π * r * 2;
 }
 
-//Quyidagi matematik formulaga funksiya tuzing:
+console.log(findP(2, 3))
+// console.log(Math.PI)
 
-let a = 3;
-let b = 2;
-let c = Math.sqrt(9 - 4);
-console.log(c);
+// Quyidagi matematik formulaga funksiya tuzing: A = πr2 (π=3.14)
+
+// Question 2
+
+function findA(r) {
+    const pi = Math.PI
+    return pi * (r * 2);
+}
+
+console.log(findA(10))
+
+
+// Question 3
+
+//Quyidagi matematik formulaga funksiya tuzing:
+function pyfagory_theorm(a, b) {
+    return Math.sqrt(a * a + b * b)
+}
+
+console.log(pyfagory_theorm(3, 4));
+
+

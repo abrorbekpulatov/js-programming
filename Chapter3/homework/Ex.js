@@ -1,16 +1,13 @@
 
-function useIphone(isUser) {
-  return isUser ? "I like Iphone" : "I don't like use Iphone";
-}
-console.log(useIphone(true));
-// javob: I like Iphone
 
-console.log(useIphone(false));
-// javob: I don't like use Iphone
-
-
-const par = (par1, par2) => {
-  return par1 === par2
+const par = (par1, par2) => { //es5 ecma script: arrow function
+  return par1 === par2 ? 'teng' : 'teng emas'
 }
 
 console.log(par('10', 10))
+
+
+
+
+
+

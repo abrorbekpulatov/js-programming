@@ -29,7 +29,7 @@ console.log(findA(10))
 
 //Quyidagi matematik formulaga funksiya tuzing:
 function pyfagory_theorm(a, b) {
-    return Math.sqrt(a * a + b * b)
+    return Math.sqrt(a ** 2 + b ** 2)
 }
 
 console.log(pyfagory_theorm(3, 4));
